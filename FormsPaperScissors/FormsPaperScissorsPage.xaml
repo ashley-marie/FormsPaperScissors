@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:FormsPaperScissors" x:Class="FormsPaperScissors.FormsPaperScissorsPage">
+
+
+	<StackLayout
+		VerticalOptions="FillAndExpand"
+		HorizontalOptions="FillAndExpand"
+		Padding="25"
+		>
+
+		<Label Text="Let's play Forms-Paper-Scissors!" VerticalOptions="Center" HorizontalOptions="Center" />
+			
+		<Button Text="Aangifte B. Barneveld, terug te krijgen"
+			Clicked="OnRockClicked"
+			/>
+		
+		<Button Text="Paper" 
+			Clicked="OnPaperClicked"
+			/>
+		
+		<Button Text="Scissors" 
+			Clicked="OnScissorsClicked"
+			/>
+
+
+		<Label Text="You chose:" />
+		<Label Text="{Binding playerChoiceText}" />
+
+		<Label Text="Computer chose:" />
+		<Label Text="{Binding computerChoiceText}" />
+		<Label Text="{Binding scoreText}" />
+		
+	</StackLayout>
+</ContentPage>
