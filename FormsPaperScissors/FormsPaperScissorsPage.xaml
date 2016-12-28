@@ -10,7 +10,7 @@
 
 		<Label Text="Let's play Forms-Paper-Scissors!" VerticalOptions="Center" HorizontalOptions="Center" />
 			
-		<Button Text="Aangifte B. Barneveld, terug te krijgen"
+		<Button Text="Rock"
 			Clicked="OnRockClicked"
 			/>
 		
