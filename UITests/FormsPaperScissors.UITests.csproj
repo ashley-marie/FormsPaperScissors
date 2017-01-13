@@ -53,9 +53,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="..\..\..\Cases\391646\56bb2480-bdc7-4c15-813a-413028994732\Xamarin.UITest.dll">
-      <Link>Xamarin.UITest.dll</Link>
-    </None>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
