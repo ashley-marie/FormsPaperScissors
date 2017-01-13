@@ -127,9 +127,6 @@
     <None Include="Info.plist" />
     <None Include="Entitlements.plist" />
     <None Include="packages.config" />
-    <None Include="..\..\..\Cases\391646\b0b369ff-3293-4fe7-8aaa-1cbdeb46c635\Xamarin.UITest.dll">
-      <Link>Xamarin.UITest.dll</Link>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
