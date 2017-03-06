@@ -32,8 +32,8 @@ namespace FormsPaperScissors.UITests
 			//app.Screenshot ("Welcome screen.");
 
 			//Assert.IsTrue (results.Any ());
-			app.Tap (x => x.Text ("Aangifte B. Barneveld, terug te krijgen"));
-			//app.Repl ();
+			//app.Tap (x => x.Text ("Aangifte B. Barneveld, terug te krijgen"));
+			app.Repl ();
 		}
 	}
 }

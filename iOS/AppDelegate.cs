@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 
+using Microsoft.Azure.Mobile;
+using Microsoft.Azure.Mobile.Analytics;
+using Microsoft.Azure.Mobile.Crashes;
+
 using Foundation;
 using UIKit;
 
@@ -18,6 +22,8 @@ namespace FormsPaperScissors.iOS
 #if ENABLE_TEST_CLOUD
 			Xamarin.Calabash.Start();
 #endif
+
+			MobileCenter.Configure ("eb1813d5-01d2-47e4-8aa2-3beaccecb635");
 
 			LoadApplication (new App ());
 
